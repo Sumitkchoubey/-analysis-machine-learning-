@@ -22,7 +22,7 @@ def crawl_data():
   comment = driver.find_elements_by_xpath('//div[@class="d-comment__body"]')
             
   date=driver.find_elements_by_xpath('//time[@class="js-timestamp"]')
-  username = driver.find_elements_by_xpath('//span[@class="d-comment__author"]')
+  # username = driver.find_elements_by_xpath('//span[@class="d-comment__author"]')
   num_page_items = len(comment)
   for i in range(num_page_items):
         
